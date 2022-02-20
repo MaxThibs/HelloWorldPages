@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
+    <title>Max's Website</title>
+    <style>
+        body {
+            position: relative;
+            min-height: 100vh;
+            background-color: rgba(0, 10, 20, 1);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            padding: 0;
+            margin: 0;
+        }
+
+        #loadingBar {
+            height: 2px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #content {
+            padding: 8px;
+            padding-bottom: 3rem;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 3rem;
+            /* Footer height */
+        }
+        footer p{
+            color: rgba(255, 255, 255, 0.5);
+            padding: 6px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hey, its me, Max.</h1>
-    <p>Hi Eric. I hope you win at poker.</p>
+    <div id='loadingBar'></div>
+    <div id='content'>
+        <h1>This is a test page</h1>
+        <subtitle>The fact that you are seeing this is a good sign :)</subtitle>
+    </div>
+    <footer>
+        <p>Website made by Maxime Thibodeau. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
